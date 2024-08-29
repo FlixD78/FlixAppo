@@ -17,7 +17,6 @@ const MapScreen = () => {
 
   const [currentLocation, setCurrentLocation] = useState(null);
   const mapViewRef = useRef(null);
-
   const goToCurrentLocation = () => {
     if (currentLocation && mapViewRef.current) {
       mapViewRef.current.animateToRegion({

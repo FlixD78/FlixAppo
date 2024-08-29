@@ -122,7 +122,7 @@ const FlixApp = () => {
         )} />
 
          <View style={styles.centeredView}>
-      <Modal
+      {/* <Modal
         animationType="slide"
         
         transparent={true}
@@ -141,7 +141,7 @@ const FlixApp = () => {
 
           </View>
         </View>
-      </Modal>
+      </Modal> */}
       <Pressable
         style={[styles.button, styles.buttonOpen]}
         onPress={() => setModalVisible(true)}>
