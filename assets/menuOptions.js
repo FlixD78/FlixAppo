@@ -1,4 +1,4 @@
-import ScreenNames from "../routs/ScreenNames";
+import ScreenNames from "../router/ScreenNames";
 
 
 const a = () => {
@@ -34,24 +34,29 @@ export default [
     name: 'Summon',
     iconName: 'ship-wheel',
     href: '/summon',
-    onpress:{}
+    screenName: ScreenNames.screen4
+
+    
   },
   {
     name: 'Security',
     iconName: 'shield-check',
     href: '/security',
-    onpress:{}
+    screenName: ScreenNames.screen4
+
   },
   {
     name: 'Updates',
     iconName: 'update',
     href: '/updates',
-    onpress:{}
+    screenName: ScreenNames.screen4
+
   },
   {
     name: 'Pet mode',
     iconName: 'dog',
     href: '/pet-mode',
-    onpress:{}
+    screenName: ScreenNames.screen4
+
   },
 ];
